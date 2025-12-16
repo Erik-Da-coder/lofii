@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lofi Plant Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Lofi Plant Game 🌱</h1>
+    <p>Points: <span id="points">0</span></p>
+    
+    <div id="plant" onclick="waterPlant()">💧🌿</div>
+    
+    <h2>Shop</h2>
+    <button onclick="buyItem('poster')">Poster (10 pts)</button>
+    <button onclick="buyItem('rug')">Rug (20 pts)</button>
+    
+    <h2>Your Room</h2>
+    <div id="room"></div>
+    
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
